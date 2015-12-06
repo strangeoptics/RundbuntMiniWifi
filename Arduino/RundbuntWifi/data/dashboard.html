@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rundbunt Mini</title>
+<link rel="stylesheet" href="rb.css">
+<script type="text/javascript" src="rb.js"></script>
+</head>
+
+<body onload="init()">
+<div>
+  
+	<h1>Rundbunt Mini</h1>
+	
+	<form id="form" class="pure-form pure-form-stacked">
+		<label for="program">Program</label>
+		<select id="program" name="program" onchange="programChange(this)">
+			<option value="one_color">One Color</option>
+			<option value="lines_vertical">Vertical Stripes</option>
+			<option value="rotor_stripes">Rotor Stripes</option>
+			<option value="plasma">Plasma</option>
+			<option value="code_rain">Code Rain</option>
+		</select>
+		<label for="intensity">Intensity</label>
+		<input id="intensity" type="range" min="0" max="1023" onchange="intensityChange(this)">
+		<label id="colLabel" for="color">Color</label>
+		<input id="color" type="range" min="0" max="1023" onchange="colorChange(this)">
+		<label for="speed">Speed</label>
+		<input id="speed" type="range" min="0" max="1023" onchange="speedChange(this)">
+		<label for="saturation">Saturation</label>
+		<input id="saturation" type="range" min="0" max="1023" onchange="saturationChange(this)">
+	</form>
+	 
+</div>
+</body>
+
+</html> 
