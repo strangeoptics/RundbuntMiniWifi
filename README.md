@@ -9,4 +9,4 @@ For the web front end you need to install the tool ESP8266FS from here https://g
 The tool enables you to upload the files in the /data folder into the flash chip of the board.
 
 ## Processing
-This is little simulation sketch for the LED-Matrix to develop quick and easy new pattern algorithems to control the leds.
+This is a little simulation sketch for the LED-Matrix. It allows to develop new pattern algorithms to control the leds whitout the hassel to compile and upload it to the esp8266 which takes ~30-40 seconds.
